@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F5199FB21CC138B600C1C53A /* BallTrail.sks in Resources */ = {isa = PBXBuildFile; fileRef = F5199FB01CC138B600C1C53A /* BallTrail.sks */; };
-		F5199FB31CC138B600C1C53A /* BrokenPlatform.sks in Resources */ = {isa = PBXBuildFile; fileRef = F5199FB11CC138B600C1C53A /* BrokenPlatform.sks */; };
-		F51C0B2A1CC1B08100EEDD07 /* BambooBreak.wav in Resources */ = {isa = PBXBuildFile; fileRef = F51C0B291CC1B08100EEDD07 /* BambooBreak.wav */; };
 		F577B38F1CB81F840005E827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F577B38E1CB81F840005E827 /* AppDelegate.swift */; };
 		F577B3911CB81F840005E827 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F577B3901CB81F840005E827 /* GameScene.sks */; };
 		F577B3931CB81F840005E827 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F577B3921CB81F840005E827 /* GameScene.swift */; };
@@ -20,16 +17,9 @@
 		F577B3A71CB8208A0005E827 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F577B3A41CB8208A0005E827 /* GameOver.swift */; };
 		F577B3A81CB8208A0005E827 /* Playing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F577B3A51CB8208A0005E827 /* Playing.swift */; };
 		F577B3A91CB8208A0005E827 /* WaitingForTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F577B3A61CB8208A0005E827 /* WaitingForTap.swift */; };
-		F577B3B71CB8210A0005E827 /* game-over.wav in Resources */ = {isa = PBXBuildFile; fileRef = F577B3B21CB8210A0005E827 /* game-over.wav */; };
-		F577B3B81CB8210A0005E827 /* game-won.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F577B3B31CB8210A0005E827 /* game-won.mp3 */; };
-		F577B3B91CB8210A0005E827 /* paddleBlip.wav in Resources */ = {isa = PBXBuildFile; fileRef = F577B3B41CB8210A0005E827 /* paddleBlip.wav */; };
-		F577B3BA1CB8210A0005E827 /* pongblip.wav in Resources */ = {isa = PBXBuildFile; fileRef = F577B3B51CB8210A0005E827 /* pongblip.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F5199FB01CC138B600C1C53A /* BallTrail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BallTrail.sks; sourceTree = "<group>"; };
-		F5199FB11CC138B600C1C53A /* BrokenPlatform.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BrokenPlatform.sks; sourceTree = "<group>"; };
-		F51C0B291CC1B08100EEDD07 /* BambooBreak.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BambooBreak.wav; sourceTree = "<group>"; };
 		F577B38B1CB81F840005E827 /* Bamboo Breakout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bamboo Breakout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F577B38E1CB81F840005E827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F577B3901CB81F840005E827 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -42,10 +32,6 @@
 		F577B3A41CB8208A0005E827 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
 		F577B3A51CB8208A0005E827 /* Playing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playing.swift; sourceTree = "<group>"; };
 		F577B3A61CB8208A0005E827 /* WaitingForTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingForTap.swift; sourceTree = "<group>"; };
-		F577B3B21CB8210A0005E827 /* game-over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "game-over.wav"; sourceTree = "<group>"; };
-		F577B3B31CB8210A0005E827 /* game-won.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game-won.mp3"; sourceTree = "<group>"; };
-		F577B3B41CB8210A0005E827 /* paddleBlip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = paddleBlip.wav; sourceTree = "<group>"; };
-		F577B3B51CB8210A0005E827 /* pongblip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pongblip.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +72,6 @@
 				F577B3961CB81F840005E827 /* Main.storyboard */,
 				F577B3991CB81F840005E827 /* Assets.xcassets */,
 				F577B39B1CB81F840005E827 /* LaunchScreen.storyboard */,
-				F577B3AB1CB820F60005E827 /* Particles */,
 				F577B3B01CB8210A0005E827 /* Sounds */,
 				F577B39E1CB81F840005E827 /* Info.plist */,
 			);
@@ -103,23 +88,9 @@
 			name = "Game States";
 			sourceTree = "<group>";
 		};
-		F577B3AB1CB820F60005E827 /* Particles */ = {
-			isa = PBXGroup;
-			children = (
-				F5199FB01CC138B600C1C53A /* BallTrail.sks */,
-				F5199FB11CC138B600C1C53A /* BrokenPlatform.sks */,
-			);
-			path = Particles;
-			sourceTree = "<group>";
-		};
 		F577B3B01CB8210A0005E827 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				F51C0B291CC1B08100EEDD07 /* BambooBreak.wav */,
-				F577B3B21CB8210A0005E827 /* game-over.wav */,
-				F577B3B31CB8210A0005E827 /* game-won.mp3 */,
-				F577B3B41CB8210A0005E827 /* paddleBlip.wav */,
-				F577B3B51CB8210A0005E827 /* pongblip.wav */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -184,15 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F577B3911CB81F840005E827 /* GameScene.sks in Resources */,
-				F5199FB21CC138B600C1C53A /* BallTrail.sks in Resources */,
-				F577B3BA1CB8210A0005E827 /* pongblip.wav in Resources */,
-				F577B3B81CB8210A0005E827 /* game-won.mp3 in Resources */,
-				F51C0B2A1CC1B08100EEDD07 /* BambooBreak.wav in Resources */,
 				F577B39D1CB81F840005E827 /* LaunchScreen.storyboard in Resources */,
-				F577B3B71CB8210A0005E827 /* game-over.wav in Resources */,
 				F577B39A1CB81F840005E827 /* Assets.xcassets in Resources */,
-				F5199FB31CC138B600C1C53A /* BrokenPlatform.sks in Resources */,
-				F577B3B91CB8210A0005E827 /* paddleBlip.wav in Resources */,
 				F577B3981CB81F840005E827 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
