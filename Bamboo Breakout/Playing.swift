@@ -27,7 +27,7 @@ class Playing: GKState {
     override func update(deltaTime seconds: TimeInterval) {
         let ball = scene.childNode(withName: BallCategoryName) as! SKSpriteNode
         
-        let maxSpeed: CGFloat = 400.0
+        let maxSpeed: CGFloat = 100.0
         
         let xSpeed = sqrt(ball.physicsBody!.velocity.dx * ball.physicsBody!.velocity.dx)
         let ySpeed = sqrt(ball.physicsBody!.velocity.dy * ball.physicsBody!.velocity.dy)
